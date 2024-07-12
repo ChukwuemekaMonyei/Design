@@ -1,5 +1,3 @@
-document.getElementById('demo').innerHTML = window.innerWidth + "px";
-
 document.addEventListener('DOMContentLoaded', function () {
     const galleryImages = document.querySelectorAll('.work-gallery img');
     const lightbox = document.createElement('div');
